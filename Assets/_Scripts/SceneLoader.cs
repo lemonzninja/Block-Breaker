@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneLoader : MonoBehaviour {
-
+public class SceneLoader : MonoBehaviour
+{
+    public int currentSceneIndex; 
+    
 	public void LoadNextScene()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+       currentSceneIndex  = SceneManager.GetActiveScene().buildIndex;
+        
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
