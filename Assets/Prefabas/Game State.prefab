@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 414276891714977670}
   - component: {fileID: 1767010485639436437}
+  - component: {fileID: 6197661102314210042}
   m_Layer: 0
   m_Name: Game State
   m_TagString: Untagged
@@ -48,6 +49,18 @@ MonoBehaviour:
   pointsPerBlockDestroyed: 83
   scoreText: {fileID: 6464843961439154546}
   currentScore: 0
+--- !u!114 &6197661102314210042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4967660383274427290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c45799c0564a342953bfa2c210dc1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2099921736295804207
 PrefabInstance:
   m_ObjectHideFlags: 0
