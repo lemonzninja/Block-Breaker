@@ -26,5 +26,10 @@ public class Level : MonoBehaviour
           {
                _sceneLoader.LoadNextScene();
           }
+
+          if (_sceneLoader.currentSceneIndex == 2)
+          {
+               _sceneLoader.GameOverState();
+          }
      }
 }
